@@ -1,0 +1,13 @@
+
+
+.note-list{
+    column-count: 2;
+}
+.note-create-container{
+  
+    flex-direction: row;
+   
+        flex-direction: column-reverse;
+        max-width: none;
+  
+}

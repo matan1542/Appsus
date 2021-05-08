@@ -1,0 +1,53 @@
+
+
+.mail-filter h4 {
+    font-size: 1.4rem;
+}
+
+.filter-search-container {
+    flex-grow: 1;
+}
+
+.filter-search-container input, .filter-search-container select[name='mailStatus'], .filter-search-container .filter-search-btn {
+    font-size: 1.4rem;
+}
+
+.mail-app-grid {
+       flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mail-list{
+    align-self: flex-start;
+}
+.side-nav-list {
+    flex-direction: column;
+}
+
+.side-nav-list>* {
+    font-size: 1.2rem;
+    overflow-wrap: anywhere;
+}
+
+thead {
+    display: table-header-group;
+}
+
+td {
+    display: table-cell;
+    border:none;
+}
+.compose-mail{
+    width: 500px;
+}
+
+.compose-modal {
+    transform: none;
+    width: 40%;
+}
+/* 
+.compose-mail {
+    width: 40%;
+    left: 79%;
+    top: 47%;
+} */

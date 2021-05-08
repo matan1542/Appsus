@@ -1,0 +1,21 @@
+@import './cmps/mail-preview.css';
+@import './cmps/mail-list.css';
+@import './cmps/mail-details.css';
+@import './cmps/mail-filter.css';
+@import '../css/cmps/mail-compose.css';
+@import './cmps/side-nav.css';
+@import './cmps/label-add.css';
+@import './responsive/mail-mobile.css';
+@import "./responsive/mail-desktop.css" screen and (min-width: 800px);
+.mail-app {
+  font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-plus {
+  background-color: ivory;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2rem;
+  color: black;
+  box-shadow: 0 0 10px 0;
+}

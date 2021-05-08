@@ -1,0 +1,13 @@
+.note-list {
+    column-count: 1;
+      column-span: all;
+      break-inside: avoid;
+      text-align: center;
+      column-gap: 10px;
+  }
+
+  .note-create-container{
+    flex-direction: column-reverse;
+    max-width: 260px;
+    
+  }

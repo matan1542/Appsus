@@ -1,0 +1,10 @@
+.book-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.book-filter {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}

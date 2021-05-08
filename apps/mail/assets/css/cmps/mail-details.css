@@ -1,0 +1,66 @@
+.back-btn {
+  font-size: 1.8rem;
+  margin-inline-start: .5rem;
+  cursor: pointer;
+}
+
+.mail p {
+  border-bottom: 1px solid black;
+}
+
+.mail {
+  width: 100%;
+}
+
+.mail-details .edit-mail {
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.from, .to, .subject, .body {
+  font-family: poppins;
+}
+
+.mail-details .labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+
+.user-labels {
+  display: flex;
+}
+
+.available-labels {
+  display: flex;
+  margin-top: 20px;
+}
+
+.user-labels>*, .available-labels>* {
+  margin-inline-end: 10px;
+}
+
+.user-labels>*:not(:first-child), .available-labels>*:not(:first-child) {
+  cursor: pointer;
+}
+
+.mail-labels-list {
+  display: flex;
+}
+
+.mail-labels-list>*:not(:last-child) {
+  margin-inline-end: 10px;
+}
+
+.replay-btn {
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.delete-btn {
+  font-size: 1.8rem;
+  cursor: pointer;
+}

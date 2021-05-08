@@ -1,0 +1,11 @@
+.hero-header{
+    font-size: 3em;
+}
+
+.about-us-inner-container-img {
+    flex-direction: column;
+    width: 100%;
+}
+.matans-container,.nadavs-container{
+    text-align: center;
+}

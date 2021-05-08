@@ -1,0 +1,85 @@
+/* NAVBAR HEADER */
+
+nav {
+  margin-bottom: 15px;
+}
+
+.nav-header {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  background-color: #2d3436;
+  box-shadow: 0px 0px 10px black;
+}
+
+.nav-logo-title {
+  color: #dfe6e9;
+  font-family: mali;
+  margin-inline: 2rem;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+}
+
+/* NAV TOGGLE */
+
+.nav-toggle {
+  border: none;
+  background-color: inherit;
+  color: #ffeaa7;
+  font-size: 3.4rem;
+  margin-inline-end: .5rem;
+}
+
+.nav-toggle-list {
+  background-color: #353b48;
+  width: 150px;
+  height: fit-content;
+  padding: .4rem;
+  z-index: 2;
+  position: absolute;
+  top: 93px;
+  right: 0;
+  border-radius: .3rem;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.anchor-header-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.anchor-header-list>* {
+  height: 45px;
+  width: 50px;
+  align-items: center;
+}
+
+.anchor-header-list a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 400;
+  border-radius: 0.3rem;
+  color: #dcdde1;
+}
+
+.anchor-header-list li a.active i {
+  color: #fbc531;
+}
+
+.nav-toggle-container {
+  display: flex;
+}
+
+.go-back {
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: rgb(38, 40, 41);
+  margin: 0.3rem;
+  align-self: flex-start;
+}
+
+.book-data .btn {
+  margin: 0.12rem;
+}

@@ -1,0 +1,14 @@
+.note-filter {
+    margin: 0 auto;
+    margin-top: .6rem;
+    box-shadow: 0 0 5px;
+   
+}
+
+.note-filter input,.note-filter select {
+    border: none;
+    /* border-radius: 10px; */
+    height: 50px;
+    font-size: 1.2rem;
+    color: rgb(47, 47, 47);
+}

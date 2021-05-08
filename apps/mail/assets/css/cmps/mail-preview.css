@@ -1,0 +1,26 @@
+.mail-list .mail-preview {
+  border: 1px solid rgb(34, 34, 34);
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.mail-list .unread {
+  font-weight: bolder;
+}
+
+
+
+td a {
+  color: inherit;
+  padding: 0;
+}
+
+
+.actions-btns {
+  padding: 5px;
+}
+
+.fas.fa-star {
+  color: #fdcb6e;
+}

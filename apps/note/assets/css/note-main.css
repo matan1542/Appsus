@@ -1,0 +1,77 @@
+@import "./cmps/edit-btns.css";
+@import "./cmps/note-preview.css";
+@import "./cmps/edit-line.css";
+@import "./cmps/add-note.css";
+@import "./cmps/note-filter.css";
+
+@import "./responsive-design/note-mobile.css";
+@import "./responsive-design/note-tablet.css" screen and (min-width: 600px);
+@import "./responsive-design/note-desktop.css" screen and (min-width: 1160px);
+
+
+/* LAYOUT */
+.note-page-container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title-note{
+  text-align: center;
+  font-family: inco ,Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .notes-container {
+  margin: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+} */
+.note{
+  font-family: inco ,Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+   display:inline-block;
+   margin: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pinned-msg-container {
+    display: flex;
+    justify-content: center;
+}
+/* MODAL */
+.transparent{
+  background-color: rgba(32, 31, 31, 0.04);
+}
+.add-note h2 {
+  margin: 0;
+}
+.add-note {
+  float:right;
+	position:relative;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+  right: 0;
+  margin: 0.8rem;
+  padding: 1.3rem;
+  color: rgb(36, 36, 36);
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.add-note:hover {
+  background-color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
+}
+

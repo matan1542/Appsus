@@ -1,0 +1,19 @@
+
+
+.note-input{
+    font-size:1.2rem;
+    padding:.2rem;
+    cursor: pointer;
+    border: none;
+    
+}
+.note-create-container{
+    background-color: #fff;
+    padding:.4rem;
+    display:flex;
+    
+  }
+
+  .note-modal{
+      background-color: #e8e8e8;
+  }

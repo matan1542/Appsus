@@ -1,0 +1,48 @@
+.mail-list {
+  /* grid-template-columns: 10% 10% 65% 10% 5%; */
+  
+  max-width: 90%;
+  flex: 1;
+}
+
+.mail-list table {
+  border-collapse: collapse;
+  margin-block-start: .4rem;
+  width: 100%;
+  margin-inline-end:.2rem;
+  box-shadow:0 0 4px 0
+}
+
+.mail-list thead {
+  background-color: #2f3542;
+  color: #f1f2f6;
+  border: 1px solid black;
+}
+
+thead .time {
+  cursor: pointer;
+}
+
+.mail-list tbody {
+  background-color: #f1f2f6;
+}
+
+.mail-list tr.mail-preview:hover {
+  transition: .3s;
+  background-color: #2f3542;
+  color: #f1f2f6;
+}
+
+td {
+  min-width: 50px;
+  padding-inline-start: .5rem;
+  overflow: scroll;
+  border: none;
+}
+.no-mails{
+  text-align: center;
+}
+
+td>* {
+  padding: .3rem;
+}

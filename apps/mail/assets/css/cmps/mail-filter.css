@@ -1,0 +1,48 @@
+.mail-filter {
+  background-color: #2d3436;
+  margin: .6rem auto;
+  color: #fdcb6e;
+  box-shadow: 0px 0px 5px black;
+  justify-content: center;
+}
+.mail-filter-container{
+  display: flex;
+  padding: .5rem;
+}
+.filter-search-container {
+  padding: .3rem;
+}
+
+.filter-search-container>*:not(:last-child) {
+  margin-inline-end: .3rem;
+}
+.mail-filter-container input{
+  font-size:1.1rem;
+}
+.mail-filter-container select{
+  font-size:1rem;
+}
+.mail-filter-container input,.mail-filter-container select{
+  border: none;
+  /* border-radius: 10px; */
+  height: 50px;
+  color: rgb(47, 47, 47);
+}
+
+/* select[name="mailStatus"] {
+  padding: .3rem;
+  outline: 0;
+  border: 2px hidden #ffffff;
+  border-radius: 0px;
+  background-color: #dfe6e9;
+  border-radius: .3rem;
+  color: #2d3436;
+  cursor: pointer;
+}
+
+input[name='txt'] {
+  border-radius: .3rem;
+  border: none;
+  padding: .3rem;
+} */
+

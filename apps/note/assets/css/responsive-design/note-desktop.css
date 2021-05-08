@@ -1,0 +1,10 @@
+.note-list {
+    column-count: 4;
+      column-span: all;
+      break-inside: avoid;
+      column-gap: 10px;
+  }
+
+  .note-create-container{
+    flex-direction: row;
+  }

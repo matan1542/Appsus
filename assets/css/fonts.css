@@ -1,0 +1,19 @@
+@font-face {
+    font-family: pacifico;
+    src: url('../fonts/Pacifico/Pacifico-Regular.ttf');
+}
+
+@font-face {
+    font-family: inco;
+    src: url('../fonts/Incoo/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: mali;
+    src: url('../fonts/Mali/Mali-Regular.ttf');
+}

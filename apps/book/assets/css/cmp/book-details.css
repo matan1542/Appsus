@@ -1,0 +1,45 @@
+.book-container {
+    height: 100vh;
+}
+
+.book-details {
+
+    text-align: center;
+}
+
+.book-desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+}
+
+.nav-btns {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-next, .btn-preview {
+    color: black;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+.back-libary-btn{
+    top: 90px;
+    left: 0;
+    position: absolute;
+    font-size: 2rem;
+    margin: .3rem ;
+    border:none;
+    background-color: inherit;
+    cursor: pointer;
+}
+.back-libary-btn:hover{
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+
+.show-reviews {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}

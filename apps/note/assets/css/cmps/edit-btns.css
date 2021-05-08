@@ -1,0 +1,35 @@
+
+.note-btn{
+    border:none;
+    font-size:1.2rem;
+    color:#b2bec3;
+    cursor: pointer;
+    background-color:inherit;
+}
+.note-btn:hover{
+    color:#2d3436;
+}
+
+
+.color-line{
+    width:100%;
+}
+
+.color-btn{
+    border:none;
+    padding:.6rem;
+    border-radius:50%;
+    margin-inline-end: .2rem;
+    border: 1px solid black;
+}
+
+.btn-input-type{
+    border: none;
+    background-color:inherit;
+    height: 100%;
+    padding: .3rem;
+    font-size:1.4rem;
+}
+.note-toggle-btn{
+    color: #2d3436;
+}

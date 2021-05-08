@@ -1,0 +1,124 @@
+@import "./responsive/home-mobile.css";
+@import "./responsive/home-desktop.css" screen and (min-width:540px);
+/* LAYOUT */
+
+.home-page-container {
+    margin-inline: .6rem;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/4.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+.hero-header {
+    font-family: 'Helvetica Neue', sans-serif;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 9px black;
+}
+
+.hero-title {
+    font-family: mali;
+}
+
+/* links-container */
+
+.links-container {
+    margin-top: 1rem;
+}
+
+.anchor-home-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    z-index: 2;
+}
+
+.anchor-home-list>* {
+    margin-top: .3rem;
+}
+
+.anchor-home-list>* i {
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+}
+
+.anchor-home-list li img {
+    border-radius: .2rem;
+    box-shadow: 0 0 5px black;
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+}
+
+.anchor-home-list li img:hover {
+    opacity: .8;
+}
+
+.my-apps, .abous-us-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3436;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* ABOUT US */
+
+.about-us-inner-container {
+    font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-ser;
+    margin: auto;
+    max-width: 600px;
+}
+
+.about-us-inner-container-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-us-inner-container-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 4px 0;
+}
+
+.devs-about-title {
+    text-align: center;
+}
+
+/* LINKS SOCIAL */
+
+.social-media-list {
+    display: flex;
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-media a i {
+    font-size: 3rem;
+}
+
+.link-media-github a i {
+    color: #2d3436;
+}
+
+.link-media-linkdin a i {
+    color: #0a66c2;
+}
