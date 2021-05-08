@@ -48,7 +48,7 @@ export function Home() {
               </div>
               <div className="nadavs-container">
                 <h2 className="devs-about-title">Nadav Nassi</h2>
-                <img src="../assets/img/NadavImg.jpeg" />
+                <img src="../assets/img/nadavImg.jpeg" />
                 <div className="social-media">
                   <ul className="social-media-list clean-list">
                     <li><div className='link-media link-media-github'>
